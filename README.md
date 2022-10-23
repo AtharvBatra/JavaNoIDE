@@ -1,6 +1,6 @@
 # Java without IDE
 
-You can use Java without an IDE and I can show you how...
+You can use Java without an IDE and I can show you how
 
 Step 1: Create 3 folders namely "src"(for source code),
 "res"(for resources such as audio, images, etc.),
@@ -45,6 +45,5 @@ echo "Running..."
 java -cp bin:res package.Main
 echo "Run probably successful"
 ```
-}
 
 # YOU DON'T NEED AN IDE!
