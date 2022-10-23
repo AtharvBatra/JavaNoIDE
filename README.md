@@ -16,10 +16,11 @@ public class Main{
 }
 ```
 
-Step 2: Create a bash script(Unix based), or batch scrip(Windows).
+Step 2: Create a bash script(Unix based), or batch script(Windows)
 
-Step 3: Write the following snippet:
-Unix based:
+## Scripts
+
+### Unix based:
 ```sh
 #!/bin/bash
 
@@ -32,7 +33,7 @@ java -cp bin:res package.Main
 echo "Run probably successful"
 ```
 
-Windows:
+### Windows:
 ```bat
 @echo off
 
