@@ -6,3 +6,4 @@ echo "Compilation probably successful"
 
 echo "Running"
 java -cp bin:res package.Main
+echo "Run Probably Successful"
