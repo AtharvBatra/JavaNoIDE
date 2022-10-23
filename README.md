@@ -9,41 +9,40 @@ Step 2: Create Your Main Java file inside the package with the following snippet
 
 ```java
 public class Main{
-	public static void main(String args[]){
-		System.out.println("Your code goes here");
-	}
+    public static void main(String args[]){
+        System.out.println("Your code goes here");
+    }
 }
 ```
 
 Step 2: Create a bash script(Unix based), or batch scrip(Windows).
 
 Step 3: Write the following snippet:
-Unix based: {
-	```sh
-	#!/bin/bash
+Unix based:
+```sh
+#!/bin/bash
 
-	echo "Compiling..."
-	javac -d bin -sourcepath src:res src/package/Main.java
-	echo "Compilation complete"
+echo "Compiling..."
+javac -d bin -sourcepath src:res src/package/Main.java
+echo "Compilation complete"
 
-	echo "Running..."
-	java -cp bin:res package.Main
-	echo "Run probably successful"
-	```
-}
+echo "Running..."
+java -cp bin:res package.Main
+echo "Run probably successful"
+```
 
-Windows: {
-	```bat
-	@echo off
+Windows:
+```bat
+@echo off
 
-	echo "Compiling..."
-	javac -d bin -sourcepath src;res src/package/main.java
-	echo "Compilation complete"
+echo "Compiling..."
+javac -d bin -sourcepath src;res src/package/main.java
+echo "Compilation complete"
 
-	echo "Running..."
-	java -cp bin:res package.Main
-	echo "Run probably successful"
-	```
+echo "Running..."
+java -cp bin:res package.Main
+echo "Run probably successful"
+```
 }
 
 # YOU DON'T NEED AN IDE!
