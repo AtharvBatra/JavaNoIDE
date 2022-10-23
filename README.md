@@ -1,4 +1,5 @@
-# JavaNoIDE
+# Java without IDE
+
 You can use Java without an IDE and I can show you how...
 
 Step 1: Create 3 folders namely "src"(for source code),
@@ -9,8 +10,8 @@ Step 2: Create Your Main Java file inside the package with the following snippet
 
 ```java
 public class Main{
-    public static void main(String args[]){
-        System.out.println("Your code goes here");
+	public static void main(String args[]){
+		System.out.println("Your code goes here");
     }
 }
 ```
