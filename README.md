@@ -46,4 +46,6 @@ java -cp bin:res package.Main
 echo "Run probably successful"
 ```
 
+#### This works with multiple classes and packages If you're wondering
+
 # YOU DON'T NEED AN IDE!
